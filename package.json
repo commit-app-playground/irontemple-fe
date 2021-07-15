@@ -1,5 +1,5 @@
 {
-  "name": "haha8",
+  "name": "irontemple",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.1",
     "next": "10.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
