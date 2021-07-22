@@ -16,7 +16,8 @@ const useStyles = makeStyles(() => ({
     height: "45px"
   },
   content: {
-    flex: 1
+    flex: 1,
+    overflow: "scroll"
   }
 }))
 
@@ -24,11 +25,11 @@ export default function Main() {
   const styles = useStyles();
 
   return (
-    <Grid container direction="column" spacing={0} className={styles.container}>
+    <Grid container direction="column" spacing={0} className={styles.container} >
       <Grid container item xs={false} className={styles.header} justifyContent="center">
         <Typography variant="h4">Irontemple</Typography>
       </Grid>
-      <Grid container item xs={false} className={styles.content}>
+      <Grid container item xs={12} className={styles.content}>
         <WorkoutWizard />
       </Grid>
     </Grid>
